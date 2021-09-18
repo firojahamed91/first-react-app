@@ -107,6 +107,24 @@ code {
     transform: translateY(-10px);
   }
 }
+
+/* card page css */
+#cards .card{
+  border-radius: 5px;
+}
+
+#cards .card:hover{
+  box-shadow: 0px 0px 20px 2px gray;
+  transition: all 0.2s linear;
+}
+#cards .card-img-top{
+  height: 250px;
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0.8s linear;
+}
+
+
 /* responsiv code */
 
 @media (max-width: 991px){

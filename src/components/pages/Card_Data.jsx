@@ -1,8 +1,11 @@
-import img from '../images/02.png'
-import web from '../images/03.png'
-import app from '../images/04.png'
-import software from '../images/05.png'
-import digital from '../images/02.png'
+import os from '../images/os.png'
+import web from '../images/web.jpg'
+import app from '../images/app.jpeg'
+import software from '../images/software.jpg'
+import digital from '../images/dogital.jpg'
+import android from '../images/android.png'
+
+
 const data=[
     {
         img: web,
@@ -13,8 +16,8 @@ const data=[
         title:"app Development",
     },
     {
-        img: software,
-        title:"software Development",
+        img: android,
+        title:"android Development",
     },
     {
         img: digital,
@@ -26,8 +29,8 @@ const data=[
         title:"software Development",
     },
     {
-        img: digital,
-        title:"Digial Marketing",
+        img: os,
+        title:"OS Development",
     },
 ]
 export default data
